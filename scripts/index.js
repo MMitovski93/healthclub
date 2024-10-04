@@ -7,7 +7,7 @@ const shareBtns = document.querySelectorAll('.main-content__links-list__share-bt
 document.addEventListener('DOMContentLoaded', () => {
     let date = new Date();
     copyRightYear.textContent = date.getFullYear();
-    window.location.href = 'https://healthclubshop.com/product/2-slim-and-beauty/'
+    window.location.href = 'https://healthclubshop.com/'
 });
 
 shareBtns.forEach(btn => {
